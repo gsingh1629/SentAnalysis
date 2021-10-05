@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>SentAnalysis</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
+  <link rel="stylesheet" href="/static/ostyle.css">
+  </head>
+  <body>
+    <h1 text-align="center" style="color:white;">Results for Review :</h1><br>
+    <div id="myInput">
+      {% if prediction == 1%}
+      <h2  text-align="center" style="color:rgb(207, 233, 236);">Positive  Review </h2>
+      {% elif prediction == 0%}
+      <h2  text-align="center" style="color:rgb(65, 60, 60);">Negative Review </h2>
+      {% endif %}
+    </div>
+    <br><br>
+  <div class="footer">
+    <footer style="color:white;">By: Gurpreet Singh</footer>
+  </div>
+  </body>
+</html>

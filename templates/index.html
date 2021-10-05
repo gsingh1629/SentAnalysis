@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SentAnalysis</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/static/istyle.css">
+</head>
+<body>
+<div class="body" ng-app="myApp">
+    <div class="wrapper" ng-controller="MyCtrl">
+	<h1 style="color:white;">Sentiment Analyser</h1>
+<form action="{{ url_for('predict') }}"  method="POST">
+  <textarea cols="100" rows="15" name="Reviews" required="required" id="textarea"></textarea>   
+<br>
+<br>
+	<div class="button">
+	<input type="submit" class="button" value="predict">
+	</div>
+</form>
+  </div>
+</div>
+<div class="footer">
+  <footer>By: Gurpreet Singh</footer>
+</div>
+<body>
+</html>
