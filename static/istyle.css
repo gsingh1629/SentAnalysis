@@ -1,0 +1,40 @@
+body, html, .body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(110, 146, 151);
+}
+.body{
+  display: table;
+}
+textarea{
+  color:black;
+  background-color:white;
+  font-size:17px;
+  font-weight:600;
+}
+.footer {
+   position:relative;
+   text-align: center;
+}
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 6px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+body, html, .body{
+  height: 100%;
+  width: 100%;
+}
+.wrapper{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}

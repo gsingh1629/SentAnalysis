@@ -1,0 +1,24 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(110, 146, 151);
+  text-align: center;
+}
+#myInput {
+  display: block;
+  resize: none;
+  height: 200px;
+  width: 450px;
+}
+.footer {
+  position: relative;
+  text-align: center;
+}
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  background-color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
