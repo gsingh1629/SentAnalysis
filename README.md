@@ -2,26 +2,17 @@
 An online Sentiment Analysis tool where user can enter the review and the output will be the sentiment of the review
 
 ## Dataset
-Here IMDB reviews data is used
+In this project IMDB reviews data is used
 ```bash
 https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?select=IMDB+Dataset.csv
 ```
-
-https://sentanalysis1.herokuapp.com/
-
-# TSummarizer
-
-An Online summarization tool built using Python and nltk. User can summarize their text data.
-
-## Link
-
+## LINK
 ```bash
-https://tsummarizer.herokuapp.com/
+https://sentanalysis1.herokuapp.com/
 ```
-
 ## Usage
 
-User need to enter their text data into the "TEXTAREA" given on the homepage and then submit it. Submt button will take you to the new page "OUTPUT" where you will get the summarized text of your input data
+User need to enter the review into the "TEXTAREA" given on the homepage and then submit it. Submt button will take you to the new page "OUTPUT" where you will get the sentiment of the review.
 
 ## Deploying it on HEROKU
 
